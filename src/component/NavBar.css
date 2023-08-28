@@ -1,0 +1,30 @@
+#btn-myclass{
+    display: none !important;
+}
+
+@media screen and (max-width:991px){
+
+    #btn-myclass{
+        display: block !important;
+        box-shadow: none;
+        border: 0;
+        /* color: rgb(15, 15, 15); */
+    }
+    #offcanvasExample{
+        background-color: rgba(255, 255, 255, 0.15) !important;
+        backdrop-filter: blur(100px) !important;
+    }
+}
+
+.my-nav{
+    color: rgb(224, 223, 223);
+    text-decoration: none;
+}
+.my-nav:hover{
+    color: white;
+    text-decoration: none;
+}
+.my-nav:active{
+    color: rgb(151, 149, 149);
+    text-decoration: none;
+}
